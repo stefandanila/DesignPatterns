@@ -1,7 +1,7 @@
-package com.sdanila.oop.duck;
+package com.sdanila.patterns.strategy;
 
-import com.sdanila.oop.duck.behavior.FlyNoWay;
-import com.sdanila.oop.duck.behavior.Quack;
+import com.sdanila.patterns.strategy.behavior.FlyNoWay;
+import com.sdanila.patterns.strategy.behavior.Quack;
 
 public class ModelDuck extends Duck {
 

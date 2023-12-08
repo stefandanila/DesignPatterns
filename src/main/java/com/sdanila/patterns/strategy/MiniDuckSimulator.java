@@ -1,6 +1,6 @@
-package com.sdanila.oop.duck;
+package com.sdanila.patterns.strategy;
 
-import com.sdanila.oop.duck.behavior.FlyRocketPowered;
+import com.sdanila.patterns.strategy.behavior.FlyRocketPowered;
 
 public class MiniDuckSimulator {
     public static void main(String[] args) {

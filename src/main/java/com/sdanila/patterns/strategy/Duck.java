@@ -1,8 +1,11 @@
-package com.sdanila.oop.duck;
+package com.sdanila.patterns.strategy;
 
-import com.sdanila.oop.duck.behavior.FlyBehavior;
-import com.sdanila.oop.duck.behavior.QuackBehavior;
+import com.sdanila.patterns.strategy.behavior.FlyBehavior;
+import com.sdanila.patterns.strategy.behavior.QuackBehavior;
 
+//identify what varies and extract them
+//design to an interface/supertype
+//favor composition over inheritance(has-a/is-a)
 public abstract class Duck {
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
