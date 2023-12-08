@@ -1,7 +1,7 @@
-package com.sdanila.patterns.strategy;
+package com.sdanila.patterns.strategy.duck;
 
-import com.sdanila.patterns.strategy.behavior.FlyBehavior;
-import com.sdanila.patterns.strategy.behavior.QuackBehavior;
+import com.sdanila.patterns.strategy.duck.behavior.FlyBehavior;
+import com.sdanila.patterns.strategy.duck.behavior.QuackBehavior;
 
 //identify what varies and extract them
 //design to an interface/supertype

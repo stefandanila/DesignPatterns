@@ -1,6 +1,6 @@
-package com.sdanila.patterns.strategy;
+package com.sdanila.patterns.strategy.duck;
 
-import com.sdanila.patterns.strategy.behavior.FlyRocketPowered;
+import com.sdanila.patterns.strategy.duck.behavior.FlyRocketPowered;
 
 //The Strategy Pattern defines a family of algorithms,
 //encapsulates each one, and makes them interchangeable.

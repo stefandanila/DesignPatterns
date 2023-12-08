@@ -1,4 +1,4 @@
-package com.sdanila.patterns.strategy.behavior;
+package com.sdanila.patterns.strategy.duck.behavior;
 
 public class FlyWithWings implements FlyBehavior {
     @Override
