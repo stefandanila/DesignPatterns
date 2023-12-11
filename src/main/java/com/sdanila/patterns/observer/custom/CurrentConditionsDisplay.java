@@ -1,4 +1,4 @@
-package com.sdanila.patterns.observer;
+package com.sdanila.patterns.observer.custom;
 
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
     private float temperature;

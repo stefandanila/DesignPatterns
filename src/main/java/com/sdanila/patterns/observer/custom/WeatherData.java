@@ -1,4 +1,4 @@
-package com.sdanila.patterns.observer;
+package com.sdanila.patterns.observer.custom;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.sdanila.patterns.observer;
+package com.sdanila.patterns.observer.custom;
 
 public interface Subject {
     void registerObserver(Observer o);

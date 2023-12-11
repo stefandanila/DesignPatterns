@@ -1,7 +1,5 @@
 package com.sdanila.patterns.observer.jdk;
 
-import java.util.Observable;
-
 //The Observer Pattern defines a one-to-many
 //dependency between objects so that when one
 //object changes state, all of its dependents are
