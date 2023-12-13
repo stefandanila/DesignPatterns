@@ -1,4 +1,4 @@
-package com.sdanila.patterns.observer.custom;
+package com.sdanila.patterns.observer.weather;
 
 //The Observer Pattern defines a one-to-many
 //dependency between objects so that when one

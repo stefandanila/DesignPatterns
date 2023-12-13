@@ -1,4 +1,4 @@
-package com.sdanila.patterns.observer.custom;
+package com.sdanila.patterns.observer.weather;
 
 public interface Subject {
     void registerObserver(Observer o);
