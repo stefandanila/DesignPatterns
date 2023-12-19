@@ -6,6 +6,10 @@ import com.sdanila.patterns.factory.products.CheesePizza;
 import com.sdanila.patterns.factory.products.ClamPizza;
 import com.sdanila.patterns.factory.products.Pizza;
 
+//When we added ingredient factory this becomes
+//The Abstract Factory Pattern provides an interface
+//for creating families of related or dependent objects
+//without specifying their concrete classes.
 public class ChicagoPizzaStore extends PizzaStore {
     @Override
     public Pizza createPizza(String type) {
