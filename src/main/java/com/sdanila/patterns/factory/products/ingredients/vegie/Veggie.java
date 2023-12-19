@@ -1,4 +1,4 @@
 package com.sdanila.patterns.factory.products.ingredients.vegie;
 
-public class Veggies {
+public interface Veggie {
 }

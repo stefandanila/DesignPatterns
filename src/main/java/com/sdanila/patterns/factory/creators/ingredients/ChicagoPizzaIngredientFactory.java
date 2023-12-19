@@ -20,8 +20,8 @@ public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
     public Cheese createCheese() {
         return new Mozzarella();
     }
-    public Veggies[] createVeggies() {
-        Veggies veggies[] = { new Spinach(), new BlackOlives(), new EggPlant()};
+    public Veggie[] createVeggies() {
+        Veggie veggies[] = { new Spinach(), new BlackOlives(), new EggPlant()};
         return veggies;
     }
     public Pepperoni createPepperoni() {

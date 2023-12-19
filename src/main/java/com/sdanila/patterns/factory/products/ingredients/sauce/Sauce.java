@@ -1,4 +1,4 @@
 package com.sdanila.patterns.factory.products.ingredients.sauce;
 
-public class Sauce {
+public interface Sauce {
 }
