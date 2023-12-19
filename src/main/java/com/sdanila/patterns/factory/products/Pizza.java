@@ -1,22 +1,22 @@
 package com.sdanila.patterns.factory.products;
 
-import java.util.ArrayList;
+import com.sdanila.patterns.factory.products.ingredients.cheese.Cheese;
+import com.sdanila.patterns.factory.products.ingredients.clams.Clams;
+import com.sdanila.patterns.factory.products.ingredients.dough.Dough;
+import com.sdanila.patterns.factory.products.ingredients.sauce.Sauce;
+import com.sdanila.patterns.factory.products.ingredients.vegie.Pepperoni;
+import com.sdanila.patterns.factory.products.ingredients.vegie.Veggies;
 
 public abstract class Pizza {
     String name;
-    String dough;
-    String sauce;
-    ArrayList<String> toppings = new ArrayList<>();
+    Dough dough;
+    Sauce sauce;
+    Veggies veggies[];
+    Cheese cheese;
+    Pepperoni pepperoni;
+    Clams clam;
 
-    public void prepare() {
-        System.out.println("Preparing " + name);
-        System.out.println("Tossing dough...");
-        System.out.println("Adding sauce...");
-        System.out.println("Adding toppings: ");
-        for (Object topping: toppings ) {
-            System.out.println(" " + topping);
-        }
-    }
+    public abstract void prepare();
 
     public void bake() {
         System.out.println("Bake for 25 minutes at 350");
@@ -32,5 +32,9 @@ public abstract class Pizza {
 
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

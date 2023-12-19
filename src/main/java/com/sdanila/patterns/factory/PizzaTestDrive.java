@@ -1,6 +1,5 @@
 package com.sdanila.patterns.factory;
 
-import com.sdanila.patterns.factory.creators.CaliforniaPizzaStore;
 import com.sdanila.patterns.factory.creators.ChicagoPizzaStore;
 import com.sdanila.patterns.factory.creators.NYPizzaStore;
 import com.sdanila.patterns.factory.creators.PizzaStore;
@@ -15,12 +14,8 @@ public class PizzaTestDrive {
         PizzaStore nyStore = new NYPizzaStore();
         PizzaStore chicagoStore = new ChicagoPizzaStore();
         Pizza pizza = nyStore.orderPizza("cheese");
-        System.out.println("Ethan ordered a "  + pizza.getName() + "\n");
+        System.out.println("Ethan ordered a " + pizza.getName() + "\n");
         pizza = chicagoStore.orderPizza("cheese");
         System.out.println("Joel ordered a " + pizza.getName() + "\n");
-
-        PizzaStore californiaStore = new CaliforniaPizzaStore();
-        pizza = californiaStore.orderPizza("cheese");
-        System.out.println("Joe ordered a " + pizza.getName() + "\n");
     }
 }
